@@ -1,0 +1,15 @@
+temp
+results
+.env
+node_modules
+dist
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.log
+*.zip
+data
+.DS_Store

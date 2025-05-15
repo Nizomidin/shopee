@@ -1,0 +1,21 @@
+{
+  "name": "shopee-product-category",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Shopee Scraper API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "batch": "node batch_scraper.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.445.0",
+    "dotenv": "^16.3.1",
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
